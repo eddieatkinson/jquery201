@@ -1,0 +1,36 @@
+@keyframes tilt{
+	/*0%{transform: rotateZ(0);}*/
+	25%{transform: rotateZ(2deg);}
+	/*50%{transform: rotateZ(0);}*/
+	75%{transform: rotateZ(-1deg);}
+	/*100%{transform: rotateZ(0);}*/
+}
+body{
+	overflow: visible;
+}
+.container-fluid{
+	animation: tilt 5s infinite;
+}
+
+.ocean-pic{
+	height: 150vh;
+	width: 150vw;
+	margin-left: -100px;
+	margin-top: -100px;
+}
+
+.top{
+	background-color: #000;
+	height: 60vh;
+	width: 130vw;
+	margin-left: -100px;
+	margin-top: -100px;
+
+}
+.bottom{
+	background-color: #00F;
+	height: 100vh;
+	width: 130vw;
+	margin-left: -100px;
+	margin-top: -100px;
+}
